@@ -2,6 +2,7 @@ function add(){
 
 
     let task = document.getElementById("value").value;
+    document.getElementById("value").value = ""
 
     var res = document.getElementById("result");
     let label = document.createElement("label")
